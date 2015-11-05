@@ -20,11 +20,11 @@ The project “GeoPic” utilizes the Google maps API and the Instagram API. The
 3.	Pass the form contents via the GET method to the Google API and receive the JSON content.
 4.	Use the json_decode  function (second parameter set to ‘true’) and convert the content into an array.
 5.	Now with location in terms of latitude and longitude, pass this into the following API URL :
-   	https://api.instagram.com/v1/media/search?lat='.$lat.'&lng='.$lng.'&max_timestamp='.$time.'$min_timestamp='.$time_delay.'&client_id=165301c23525430788db2fd7938a3411
+   	https://api.instagram.com/v1/media/search?lat='.$lat.'&lng='.$lng.'&max_timestamp='.$time.'$min_timestamp='.$time_delay.'&client_id=[ID_HERE]
 6.	Retrieve the JSON contents received as an array by using the same method as in step 4.
 Traverse through each photo by using the array elements and get the id of each photo by the following method – $media_id = $instagram_array['data'][$i]['id'];
 7.	Now send this media id to the following URL and receive the details of users who have liked the media – 
-https://api.instagram.com/v1/media/'.$media_id.'/likes?client_id=165301c23525430788db2fd7938a3411
+https://api.instagram.com/v1/media/'.$media_id.'/likes?client_id=[ID_HERE]
 8.	Display the photos and store the name of the location ,time and the total number of people who have liked the photos in the database ’ album’ under the table ‘photos’.
 9.	This content must be updated if the time difference between the last updated and the current time is greater than 3600.
 10.	Create a new php file called graph.php
