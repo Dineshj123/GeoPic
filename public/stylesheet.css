@@ -1,0 +1,22 @@
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+ width: 50%;
+ margin: auto;
+}
+
+#title{
+  color: white;
+  background-color: lightblue;
+}
+
+#body{
+  color: steelblue;
+}
+
+#info{
+  font-size: 120%;
+  text-align: center;
+  background-color: snow;
+  color: teal;
+}
