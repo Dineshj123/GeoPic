@@ -21,8 +21,9 @@ class GeoController extends BaseController
 		  $instagram_url = 'https://api.instagram.com/v1/media/search?lat='.$lat.'&lng='.$lng.'&max_timestamp='.$time.'$min_timestamp='.$time_delay.'&client_id=165301c23525430788db2fd7938a3411';
 		  $instagram_json = file_get_contents($instagram_url);
 		  $instagram_array = json_decode($instagram_json,true);
-
-      return view('pages.geopic-injected',compact('instagram_array'));
+      $size = sizeof($instagram_array['data']);
+      $flag = 0;
+      return view('pages.geopic-injected',compact('instagram_array'))->with(['size' => $size,'flag' => $flag]);
 
     }
 }
