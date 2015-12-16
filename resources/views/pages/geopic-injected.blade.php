@@ -4,19 +4,23 @@
     <meta charset="utf-8">
     <title>Geopic</title>
 
-      <link rel="stylesheet" href="/public/stylesheet.css" media="screen" title="no title" charset="utf-8">
-
-      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/stylesheet.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
 
   </head>
   <body>
-    <div class="container">
-      <div class="jumbotron">
-        <h1>Geopic</h1>
+
+    <div class="row" id="header">
+      <div class="container">
+        <div class="jumbotron" id="title">
+          <h1>Geopic</h1>
+        </div>
       </div>
     </div>
+    <br><br><br>
     <div class="row">
           <div class="col-sm-3">
           </div>

@@ -4,19 +4,35 @@
  width: 50%;
  margin: auto;
 }
-
+#header{
+  border-bottom-left-radius: 60%;
+  border-bottom-right-radius: 60%;
+  background-image: url('images/col-search.jpg');
+}
 #title{
   color: white;
-  background-color: lightblue;
+  font-weight: 300;
+  background-image: url('images/col-search.jpg');
+  border-bottom-left-radius: 60%;
+  border-bottom-right-radius: 60%;
+  font-family: Satisfy;
+
 }
 
 #body{
   color: steelblue;
+  height : 100%;
 }
-
+#footer{
+  background-image: url('images/footer.png');
+  border-top-left-radius: 60%;
+  border-top-right-radius: 60%;
+}
 #info{
-  font-size: 120%;
+  font-size: 320%;
   text-align: center;
-  background-color: snow;
-  color: teal;
+
+  color: white;
+  font-family: Satisfy;
+
 }
