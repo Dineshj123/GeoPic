@@ -11,7 +11,8 @@ Find Latest Instagram photos tagged by location.
 7. Run the PHP server on the desired port.
 
 ##Routes
-`/geopic` - Page to search the desired location.
-`/search` - Page where the photos are displayed.
+1. `/geopic` - Page to search the desired location.
+2. `/search` - Page where the photos are displayed.
+
 
 
