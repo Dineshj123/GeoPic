@@ -53,8 +53,10 @@
 #info{
   font-size: 320%;
   text-align: center;
-
   color: white;
   font-family: Satisfy;
-
+}
+#arrow{
+  background-color: Khaki;
+  opacity:0.5;
 }
