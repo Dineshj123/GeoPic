@@ -14,7 +14,7 @@
   background-image: url('images/col-search.jpg');
   animation-name: ripple;
   animation-duration: 2s;
-  animation-timing-function: cubic-bezier(.78,.37,.64,.95);
+  animation-timing-function: cubic-bezier(.39,.07,.84,.74);
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }

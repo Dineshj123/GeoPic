@@ -17,7 +17,7 @@
   <body>
     <div class="row" id="content">
 
-  
+
         <div class="row" id="header">
           <div class="container">
             <div class="jumbotron" id="title">
@@ -38,7 +38,7 @@
                   <div class="form-group">
                     <label class="control-label col-sm-2" for="location">Location:</label>
                     <div class="col-sm-5">
-                      <input type="text" class="form-control" id="location" placeholder="Enter location" name="location">
+                      <input type="text" class="form-control" id="location" placeholder="Enter location" name="location" required>
                     </div>
                   </div>
                   <div class="form-group">
